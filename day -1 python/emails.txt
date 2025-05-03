@@ -1,0 +1,19 @@
+# Valid Emails
+valid_emails = [
+    "example@example.com",
+    "user.name+tag+sorting@example.com",
+    "user_name@example.co.uk",
+    "user-name@example.org",
+    "user123@example.io"
+]
+
+# Invalid Emails
+invalid_emails = [
+    "plainaddress",
+    "@missingusername.com",
+    "username@.com.my",
+    "username@.com",
+    "username@com",
+    "username@-example.com",
+    "username@example..com"
+]
